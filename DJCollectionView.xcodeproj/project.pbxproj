@@ -14,6 +14,8 @@
 		64CC280B21FA1D9800A155E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64CC280921FA1D9800A155E1 /* LaunchScreen.storyboard */; };
 		64CC281621FA1D9900A155E1 /* DJCollectionViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC281521FA1D9900A155E1 /* DJCollectionViewTests.swift */; };
 		64CC282121FA1D9900A155E1 /* DJCollectionViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC282021FA1D9900A155E1 /* DJCollectionViewUITests.swift */; };
+		64CC283021FA1DCD00A155E1 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC282F21FA1DCD00A155E1 /* Model.swift */; };
+		64CC283221FA1DDB00A155E1 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64CC283121FA1DDB00A155E1 /* TableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		64CC281C21FA1D9900A155E1 /* DJCollectionViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DJCollectionViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		64CC282021FA1D9900A155E1 /* DJCollectionViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DJCollectionViewUITests.swift; sourceTree = "<group>"; };
 		64CC282221FA1D9900A155E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64CC282F21FA1DCD00A155E1 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		64CC283121FA1DDB00A155E1 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +101,9 @@
 		64CC27FF21FA1D9700A155E1 /* DJCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				64CC282E21FA1DAD00A155E1 /* Model */,
 				64CC280021FA1D9700A155E1 /* AppDelegate.swift */,
+				64CC283121FA1DDB00A155E1 /* TableViewCell.swift */,
 				64CC280221FA1D9700A155E1 /* ViewController.swift */,
 				64CC280421FA1D9700A155E1 /* Main.storyboard */,
 				64CC280721FA1D9800A155E1 /* Assets.xcassets */,
@@ -123,6 +129,14 @@
 				64CC282221FA1D9900A155E1 /* Info.plist */,
 			);
 			path = DJCollectionViewUITests;
+			sourceTree = "<group>";
+		};
+		64CC282E21FA1DAD00A155E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				64CC282F21FA1DCD00A155E1 /* Model.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +270,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64CC283021FA1DCD00A155E1 /* Model.swift in Sources */,
+				64CC283221FA1DDB00A155E1 /* TableViewCell.swift in Sources */,
 				64CC280321FA1D9700A155E1 /* ViewController.swift in Sources */,
 				64CC280121FA1D9700A155E1 /* AppDelegate.swift in Sources */,
 			);
